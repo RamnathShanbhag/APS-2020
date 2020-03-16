@@ -24,9 +24,4 @@ array=list(map(int,input().split()))
 BIT=constructBIT(array,n)
 for i in range(2):
 	m=int(input())
-	print(query(BIT,m))
-for i in range(2):
-	j=int(input())
-	val=int(input())
-	BIT=updateBIT(BIT,n,j,val)
-print(BIT)
+	print(query(BIT,m)
